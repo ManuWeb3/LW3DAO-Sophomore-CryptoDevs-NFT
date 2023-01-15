@@ -11,6 +11,8 @@ contract CryptoDevs is ERC721Enumerable, Ownable {
       * token will be the concatenation of the `baseURI` and the `tokenId`.
       */
     string _baseTokenURI;
+    // set to https://nft-collection-sneh1999.vercel.app/api/ at deployment 
+    // with Sneh's vercel-served app
 
    //  _price is the price of one Crypto Dev NFT
    //   internally, figures get converted into wei, hence uint256 for too big a number

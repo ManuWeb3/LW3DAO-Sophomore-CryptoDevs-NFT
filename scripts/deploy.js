@@ -16,7 +16,7 @@ async function main() {
       whitelistAddress        
     )
 
-    await deployedCryptoDevsContract.deployTransaction.wait(6)
+    await deployedCryptoDevsContract.deployTransaction.wait(10)
     // instead of .deployed()
 
     console.log(`CryptoDevs Address: ${deployedCryptoDevsContract.address}`)
